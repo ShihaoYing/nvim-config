@@ -1,0 +1,1 @@
+-- set up nvim-tree's key
