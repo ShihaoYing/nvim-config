@@ -14,10 +14,14 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'
 
     -- highlight
-    -- use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+    use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
     -- Github copilot
 	use({ "github/copilot.vim" })
+    
+    -- markdown preview
+    use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", 
+    setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
     end
 )
 
