@@ -30,3 +30,5 @@ vim.o.cmdheight = 1
 -- 当文件被外部程序修改时，自动加载
 vim.o.autoread = true
 vim.bo.autoread = true
+-- Clipboard
+vim.o.clipboard = "unnamedplus"

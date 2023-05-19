@@ -7,12 +7,6 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     -- use 'navarasu/onedark.nvim'
 
-    -- file explorer
-    use 'kyazdani42/nvim-tree.lua'
-
-    -- statusline
-    use 'nvim-lualine/lualine.nvim'
-
     -- highlight
     use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
@@ -22,6 +16,7 @@ return require('packer').startup(function(use)
     -- markdown preview
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", 
     setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+    
     end
 )
 

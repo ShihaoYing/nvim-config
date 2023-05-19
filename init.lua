@@ -10,7 +10,5 @@ require("plugins")
 -- load keymappings
 require("keybindings")
 
--- lualine
--- require("lualine").setup()
-require("plugin-config.nvim-tree")
+-- plugin config
 require("plugin-config.treesitter")
