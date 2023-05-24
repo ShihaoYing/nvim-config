@@ -1,3 +1,10 @@
+-- VS Code extension
+if vim.g.vscode then
+    --VSCode extension
+else
+    -- ordinary vim
+end
+
 -- load basic for basic setting
 require("basic")
 
