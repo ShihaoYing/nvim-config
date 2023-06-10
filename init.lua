@@ -2,7 +2,7 @@
 if vim.g.vscode then
     --VSCode extension
 else
-    -- ordinary vim
+    --ordinary vim
 end
 
 -- load basic for basic setting
@@ -17,5 +17,10 @@ require("plugins")
 -- load keymappings
 require("keybindings")
 
+-- load lsp config
+require("lspconfig")
+
 -- plugin config
 require("plugin-config.treesitter")
+require("plugin-config.null-ls")
+require("plugin-config.prettier")

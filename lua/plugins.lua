@@ -17,6 +17,12 @@ return require('packer').startup(function(use)
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", 
     setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
     
+    -- prettier
+    use('nvim-lua/plenary.nvim')
+    use('neovim/nvim-lspconfig')
+    use('jose-elias-alvarez/null-ls.nvim')
+    use('MunifTanjim/prettier.nvim')
+
     end
 )
 

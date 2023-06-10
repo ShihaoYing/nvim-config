@@ -86,6 +86,16 @@ _G.packer_plugins = {
     path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -95,6 +105,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/shihaoying/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
