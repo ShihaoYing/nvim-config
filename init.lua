@@ -1,7 +1,6 @@
 -- load basic for basic setting
 require("basic")
 
-
 -- load plugins
 require("plugins")
 
@@ -9,8 +8,8 @@ require("plugins")
 require("keybindings")
 
 -- load lsp config
-require("lspconfig")
-
+require("lsp.lspconfig")
+-- require("cmp")
 
 -- VS Code extension
 if vim.g.vscode then
@@ -24,5 +23,7 @@ else
     require("plugin-config.prettier")
     require("plugin-config.treesitter")
     require("plugin-config.null-ls")
+    require("lsp.mason")
+    require("plugin-config.cmp-nvim")
 end
 
