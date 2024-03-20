@@ -10,5 +10,6 @@ prettier.setup({
     "json",
     "markdown",
     "yaml",
+    "sql"
   },
 })
